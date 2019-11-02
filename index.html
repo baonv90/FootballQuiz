@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="./css/style.css"/>
+    <style type="text/css" src="./css/style.css"></style>
+    <script type="text/javascript" src="library/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/display.js"></script>
+    <script type="text/javascript" src="js/gameover.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/questions.js"></script>
+
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+	<link  rel="import" href="bower_components/paper-button/paper-button.html">
+	<link  rel="import" href="bower_components/paper-progress/paper-progress.html">
+	<link  rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+
+
+	<style is="custom-style">
+	  paper-button.green {
+	  	position: absolute;
+	    background-color: var(--paper-green-500);
+	    color: white;
+	    font-size: 1em;
+	    font-family: "Caviar Dreams";
+	    padding-top: 35px;
+	  }
+	  paper-button.blue {
+	  	position: absolute;
+	    background-color: var(--paper-green-500);
+	    color: white;
+	    font-size: 1em;
+	    font-family: "Caviar Dreams";
+	  }
+	  paper-button.green[active] {
+	    background-color: var(--paper-red-500);
+	  }
+	  paper-button.green[answered] {
+	    background-color: var(--paper-orange-500);
+	  }
+	  paper-card {
+	     position: absolute;
+	  }
+	  paper-progress.green {
+    	--paper-progress-active-color: var(--paper-green-500);
+    	--paper-progress-secondary-color: var(--paper-orange-500);
+  	  }
+  	  paper-dialog{
+  	  	background-color: var(--paper-grey-700);
+  	  	text-align: center;
+  	  }
+
+	</style>
+	 <script>
+            Polymer({
+                is: 'paper-button',
+                handleClick: function() {
+                    alert('clicked');
+                }
+            });
+        </script>
+  </head>
+  <body>  
+
+  </body>
+</html>

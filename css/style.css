@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src : url('../font/CaviarDreams.ttf') format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "League";
+  src : url('../font/LeagueGothic-Regular.otf') format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chunk";
+  src : url('../font/Chunkfive.otf') format("opentype");
+  font-style: normal;
+}
+
+body {
+-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+-webkit-user-select: none; 
+text-shadow: none;
+box-shadow: none; 
+-moz-box-shadow: none;
+-webkit-box-shadow: none;   
+
+
+  overflow: hidden;
+  margin: 0;
+}
+
+
+.menu h1 {
+    margin-top: 10px;
+    position: relative;
+    font-family: "Caviar Dreams";
+    color: white;
+}
+.menu img {
+    margin-left: 20px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+p.main
+{
+    color: white;
+    font-family: "Chunk";
+    line-height: 150%;
+    font-size: 3em;
+}
+p.content
+{
+    color: #D4D4D4;
+    font-family: 'Caviar Dreams';
+    font-size: 1.8em;
+    line-height: 60%;
+}
+
+.main {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+span.score {
+    color: white;
+    font-family: 'Caviar Dreams';
+    font-size: 1.3em;
+    line-height: 60%;
+}
